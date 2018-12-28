@@ -1,0 +1,25 @@
+{
+  "name": "puppeteer-chrome-linux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgfjt-boxbox/puppeteer-chrome-linux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgfjt-boxbox/puppeteer-chrome-linux/issues"
+  },
+  "homepage": "https://github.com/tgfjt-boxbox/puppeteer-chrome-linux#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "puppeteer": "^1.11.0"
+  }
+}

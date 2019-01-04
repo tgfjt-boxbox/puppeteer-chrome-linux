@@ -1,5 +1,5 @@
 build:
-	docker build -t puppeteer-chrome-linux .
+	docker-compose build
 
 run:
-	sh run-puppeteer.sh
+	docker-compose up

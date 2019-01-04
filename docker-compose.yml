@@ -1,0 +1,14 @@
+version: '3'
+services:
+  puppeteer:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+      args:
+        buildno: 1
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/src
+    privileged: true
+    restart: always

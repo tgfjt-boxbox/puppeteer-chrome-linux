@@ -32,7 +32,4 @@ RUN groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser \
 
 USER pptruser
 
-EXPOSE 8080
-
 ENTRYPOINT ["dumb-init", "--"]
-CMD ["npm", "start"]

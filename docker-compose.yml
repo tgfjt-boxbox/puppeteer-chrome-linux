@@ -12,3 +12,4 @@ services:
       - .:/src
     privileged: true
     restart: always
+    command: npm start
